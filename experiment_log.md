@@ -4,7 +4,7 @@ This file tracks the iterative progress of our 10-step experiment strategy.
 
 | Exp # | Description | Key Changes | Target (AUC) | Runtime |
 | :--- | :--- | :--- | :--- | :--- |
-| **1** | Baseline Pipeline | Initial MLOps pipeline with single LightGBM model. | TBD | TBD |
+| **1** | Baseline Pipeline | Initial MLOps pipeline with single LightGBM model. | 0.94231 | ~2m |
 | **2** | Advanced FE | Ported high-value features (Degradation derivatives, PitWindowPressure). | - | - |
 | **3** | High Cardinality | Driver Target Encoding & 2023 Anomaly flag. | - | - |
 | **4** | Efficiency | Pruning redundant features via Correlation analysis. | - | - |
